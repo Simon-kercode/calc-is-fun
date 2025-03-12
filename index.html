@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculatrice">
+  <label for="ecran"></label><input type="text" class="ecran" id="ecran" disabled>
+  <div class="boutons">
+    <button onclick="ajouterChiffre('7')">7</button>
+    <button onclick="ajouterChiffre('8')">8</button>
+    <button onclick="ajouterChiffre('9')">9</button>
+    <button onclick="ajouterOperateur('/')">/</button>
+    <button onclick="ajouterChiffre('4')">4</button>
+    <button onclick="ajouterChiffre('5')">5</button>
+    <button onclick="ajouterChiffre('6')">6</button>
+    <button onclick="ajouterOperateur('*')">*</button>
+    <button onclick="ajouterChiffre('1')">1</button>
+    <button onclick="ajouterChiffre('2')">2</button>
+    <button onclick="ajouterChiffre('3')">3</button>
+    <button onclick="ajouterOperateur('-')">-</button>
+    <button onclick="ajouterChiffre('0')">0</button>
+    <button onclick="effacer()">C</button>
+    <button onclick="ajouterOperateur('+')">+</button>
+    <button onclick="calculer()">=</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
