@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "useDefineForClassFields": true,
+        "lib": ["esnext", "dom"],
+        "module": "nodenext",
+        "resolveJsonModule": true,
+        "strict": true,
+        "moduleResolution": "nodenext",
+        "isolatedModules": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "checkJs": true
+    },
+    "include": ["./**/*.d.ts", "./**/*.ts", "./**/*.js"]
+}
